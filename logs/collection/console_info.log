@@ -1,0 +1,199 @@
+2019-07-29 18:01:13.557 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ac3eba00] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-29 18:01:14.731 [main] INFO  com.mt.collection.SpringbootCollectionApplication - The following profiles are active: dev
+2019-07-29 18:01:15.581 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-29 18:01:15.773 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 183ms. Found 2 repository interfaces.
+2019-07-29 18:01:16.072 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ae4e785c-d3eb-3ac0-aaab-08ad555501ea
+2019-07-29 18:01:16.208 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$ac3eba00] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-29 18:01:16.620 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9081 (http)
+2019-07-29 18:01:16.641 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:01:16.654 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-29 18:01:16.655 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-29 18:01:17.053 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-29 18:01:17.054 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2267 ms
+2019-07-29 18:01:19.173 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-29 18:01:19.267 [cluster-ClusterId{value='5d3ec3ef05783a4d1c221b00', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:9}] to 127.0.0.1:27017
+2019-07-29 18:01:19.277 [cluster-ClusterId{value='5d3ec3ef05783a4d1c221b00', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6276154}
+2019-07-29 18:01:19.820 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-29 18:01:19.827 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-29 18:01:20.155 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-29 18:01:20.233 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-29 18:01:20.246 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-07-29 18:01:20.263 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-29 18:02:05.660 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8027dc5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-29 18:02:06.935 [main] INFO  com.mt.collection.SpringbootCollectionApplication - The following profiles are active: dev
+2019-07-29 18:02:07.724 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-29 18:02:07.928 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 196ms. Found 2 repository interfaces.
+2019-07-29 18:02:08.261 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ae4e785c-d3eb-3ac0-aaab-08ad555501ea
+2019-07-29 18:02:08.411 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8027dc5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-29 18:02:08.870 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9081 (http)
+2019-07-29 18:02:08.889 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:02:08.902 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-29 18:02:08.904 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-29 18:02:09.280 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-29 18:02:09.280 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2323 ms
+2019-07-29 18:02:11.467 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-29 18:02:11.583 [cluster-ClusterId{value='5d3ec42305783a42d8cb1eac', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:10}] to 127.0.0.1:27017
+2019-07-29 18:02:11.593 [cluster-ClusterId{value='5d3ec42305783a42d8cb1eac', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6848568}
+2019-07-29 18:02:12.239 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-29 18:02:12.248 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-29 18:02:12.624 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-29 18:02:15.261 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-29 18:02:15.334 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-29 18:02:15.520 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-29 18:02:15.521 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-29 18:02:15.740 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-29 18:02:15.742 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-29 18:02:16.199 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-29 18:02:16.780 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-07-29 18:02:16.780 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-07-29 18:02:16.781 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-07-29 18:02:16.781 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-07-29 18:02:16.783 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-07-29 18:02:16.783 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-07-29 18:02:16.783 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-29 18:02:17.197 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-07-29 18:02:17.204 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-29 18:02:17.210 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-29 18:02:17.220 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1564394537217 with initial instances count: 6
+2019-07-29 18:02:17.221 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application SERVICE-COLLECTION with eureka with status UP
+2019-07-29 18:02:17.223 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564394537223, current=UP, previous=STARTING]
+2019-07-29 18:02:17.227 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081: registering service...
+2019-07-29 18:02:17.241 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:02:17.310 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081 - registration status: 204
+2019-07-29 18:02:17.314 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9081 (http) with context path ''
+2019-07-29 18:02:17.316 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9081
+2019-07-29 18:02:17.320 [main] INFO  com.mt.collection.SpringbootCollectionApplication - Started SpringbootCollectionApplication in 14.091 seconds (JVM running for 16.822)
+2019-07-29 18:03:22.563 [http-nio-9081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-29 18:03:22.564 [http-nio-9081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-29 18:03:22.576 [http-nio-9081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-07-29 18:05:36.098 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-07-29 18:05:36.100 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application SERVICE-COLLECTION with eureka with status DOWN
+2019-07-29 18:05:36.102 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081: registering service...
+2019-07-29 18:05:36.108 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081 - registration status: 204
+2019-07-29 18:05:36.108 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-29 18:05:36.120 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-07-29 18:05:39.125 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-07-29 18:05:39.133 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081 - deregister  status: 200
+2019-07-29 18:05:39.147 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-07-29 18:05:39.148 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:05:39.598 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-07-29 18:05:39.603 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-07-29 18:05:39.614 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:05:39.621 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:23:41.351 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4e2acfc5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-29 18:23:42.637 [main] INFO  com.mt.collection.SpringbootCollectionApplication - The following profiles are active: dev
+2019-07-29 18:23:43.684 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-29 18:23:43.897 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 204ms. Found 2 repository interfaces.
+2019-07-29 18:23:44.193 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ae4e785c-d3eb-3ac0-aaab-08ad555501ea
+2019-07-29 18:23:44.342 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$4e2acfc5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-29 18:23:44.826 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9081 (http)
+2019-07-29 18:23:44.848 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:23:44.862 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-29 18:23:44.864 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-29 18:23:45.204 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-29 18:23:45.204 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2524 ms
+2019-07-29 18:23:47.320 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-29 18:23:47.465 [cluster-ClusterId{value='5d3ec93305783a400c27e8ad', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:20}] to 127.0.0.1:27017
+2019-07-29 18:23:47.473 [cluster-ClusterId{value='5d3ec93305783a400c27e8ad', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4328968}
+2019-07-29 18:23:48.112 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-29 18:23:48.119 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-29 18:23:48.473 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-29 18:23:51.035 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-29 18:23:51.098 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-29 18:23:51.216 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-29 18:23:51.218 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-29 18:23:51.417 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-29 18:23:51.420 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-29 18:23:51.936 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-29 18:23:52.419 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-07-29 18:23:52.419 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-07-29 18:23:52.421 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-07-29 18:23:52.421 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-07-29 18:23:52.423 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-07-29 18:23:52.423 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-07-29 18:23:52.423 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-29 18:23:52.761 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-07-29 18:23:52.769 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-29 18:23:52.774 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-29 18:23:52.781 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1564395832779 with initial instances count: 6
+2019-07-29 18:23:52.782 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application SERVICE-COLLECTION with eureka with status UP
+2019-07-29 18:23:52.784 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564395832784, current=UP, previous=STARTING]
+2019-07-29 18:23:52.788 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081: registering service...
+2019-07-29 18:23:52.801 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:23:52.909 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9081 (http) with context path ''
+2019-07-29 18:23:52.912 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081 - registration status: 204
+2019-07-29 18:23:52.915 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9081
+2019-07-29 18:23:52.918 [main] INFO  com.mt.collection.SpringbootCollectionApplication - Started SpringbootCollectionApplication in 14.332 seconds (JVM running for 16.464)
+2019-07-29 18:26:42.157 [http-nio-9081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-29 18:26:42.158 [http-nio-9081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-29 18:26:42.169 [http-nio-9081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-07-29 18:27:12.995 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-07-29 18:27:12.997 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application SERVICE-COLLECTION with eureka with status DOWN
+2019-07-29 18:27:13.003 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081: registering service...
+2019-07-29 18:27:13.010 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081 - registration status: 204
+2019-07-29 18:27:13.008 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-29 18:27:13.026 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-07-29 18:27:16.030 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-07-29 18:27:16.039 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081 - deregister  status: 200
+2019-07-29 18:27:16.052 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-07-29 18:27:16.053 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:27:16.550 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-07-29 18:27:16.554 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-07-29 18:27:16.566 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:27:16.575 [RMI TCP Connection(2)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:27:44.638 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9e8ab10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-29 18:27:46.239 [main] INFO  com.mt.collection.SpringbootCollectionApplication - The following profiles are active: dev
+2019-07-29 18:27:47.033 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-29 18:27:47.220 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 180ms. Found 2 repository interfaces.
+2019-07-29 18:27:47.513 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=ae4e785c-d3eb-3ac0-aaab-08ad555501ea
+2019-07-29 18:27:47.658 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$9e8ab10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-29 18:27:48.101 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9081 (http)
+2019-07-29 18:27:48.123 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:27:48.134 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-07-29 18:27:48.135 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-07-29 18:27:48.478 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-07-29 18:27:48.479 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2222 ms
+2019-07-29 18:27:50.494 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[127.0.0.1:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-07-29 18:27:50.602 [cluster-ClusterId{value='5d3eca2605783a17e0e3dbc9', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:22}] to 127.0.0.1:27017
+2019-07-29 18:27:50.614 [cluster-ClusterId{value='5d3eca2605783a17e0e3dbc9', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 8]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6685830}
+2019-07-29 18:27:51.320 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-29 18:27:51.331 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-29 18:27:51.688 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-29 18:27:54.443 [main] INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2019-07-29 18:27:54.503 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-07-29 18:27:54.628 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-07-29 18:27:54.630 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-07-29 18:27:54.847 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-07-29 18:27:54.849 [main] INFO  c.n.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-07-29 18:27:55.638 [main] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-29 18:27:56.135 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-07-29 18:27:56.135 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-07-29 18:27:56.138 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-07-29 18:27:56.138 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-07-29 18:27:56.140 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-07-29 18:27:56.141 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-07-29 18:27:56.141 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-07-29 18:27:56.489 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-07-29 18:27:56.493 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-07-29 18:27:56.498 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-29 18:27:56.505 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1564396076503 with initial instances count: 6
+2019-07-29 18:27:56.506 [main] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Registering application SERVICE-COLLECTION with eureka with status UP
+2019-07-29 18:27:56.508 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1564396076508, current=UP, previous=STARTING]
+2019-07-29 18:27:56.512 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081: registering service...
+2019-07-29 18:27:56.527 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9081"]
+2019-07-29 18:27:56.839 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081 - registration status: 204
+2019-07-29 18:27:56.861 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9081 (http) with context path ''
+2019-07-29 18:27:56.862 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 9081
+2019-07-29 18:27:56.866 [main] INFO  com.mt.collection.SpringbootCollectionApplication - Started SpringbootCollectionApplication in 14.917 seconds (JVM running for 17.293)
+2019-07-29 18:28:45.758 [http-nio-9081-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-29 18:28:45.760 [http-nio-9081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-07-29 18:28:45.781 [http-nio-9081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2019-07-29 18:32:56.144 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-07-29 18:34:15.274 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2019-07-29 18:34:15.276 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry - Unregistering application SERVICE-COLLECTION with eureka with status DOWN
+2019-07-29 18:34:15.282 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081: registering service...
+2019-07-29 18:34:15.286 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-29 18:34:15.289 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_SERVICE-COLLECTION/DESKTOP-KNP79HU:service-collection:9081 - registration status: 204
+2019-07-29 18:34:15.299 [RMI TCP Connection(2)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
